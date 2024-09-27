@@ -19,8 +19,8 @@
 }
 
 body {
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
 .signup {
@@ -187,7 +187,7 @@ body {
   text-decoration: none;
 }
 
-@media (max-width: 810px) {
+@media (max-width: 835px) {
   .signup__banner {
     display: none;
   }

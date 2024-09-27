@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sign Up Form Odin</title>
+  </head>
+  <body>
+    <div class="signup">
+      <section class="signup__banner">
+        <div class="signup__logo-container">
+          <div class="signup__logo">
+            <img src="./assets/images/logo.png" alt="Odin Project logo" />
+          </div>
+          <h2 class="signup__logo-text">ODIN</h2>
+        </div>
+        <div class="signup__photo-credit">
+          Photo by <span>Hal West</span> on Unsplash
+        </div>
+      </section>
+
+      <section class="signup__content">
+        <div class="signup__intro">
+          <h2 class="signup__intro-text">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started.
+          </h2>
+          <h2 class="signup__intro-text">You know you want to.</h2>
+        </div>
+
+        <form class="signup-form">
+          <div class="signup-form__wrapper">
+            <h2 class="signup-form__title">Let's do this!</h2>
+            <div class="signup-form__fields">
+              <div class="signup-form__field">
+                <label for="first-name" class="signup-form__label"
+                  >First Name</label
+                >
+                <input
+                  class="signup-form__input"
+                  type="text"
+                  name="first-name"
+                  required
+                  id="first-name"
+                  value="Thor"
+                />
+              </div>
+              <div class="signup-form__field">
+                <label for="last-name" class="signup-form__label"
+                  >Last Name</label
+                >
+                <input
+                  class="signup-form__input"
+                  type="text"
+                  name="last-name"
+                  required
+                  id="last-name"
+                  value="OdinSon"
+                />
+              </div>
+              <div class="signup-form__field">
+                <label for="email" class="signup-form__label">Email</label>
+                <input
+                  class="signup-form__input"
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  placeholder="odin@odin.od"
+                />
+              </div>
+              <div class="signup-form__field">
+                <label for="phone" class="signup-form__label"
+                  >Phone Number</label
+                >
+                <input
+                  class="signup-form__input"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  required
+                  placeholder="+xx xx xx xx xx ..."
+                />
+              </div>
+              <div class="signup-form__field">
+                <label for="password" class="signup-form__label"
+                  >Password</label
+                >
+                <input
+                  class="signup-form__input signup-form__input--error"
+                  type="password"
+                  name="password"
+                  id="password"
+                  required
+                />
+                <p class="signup-form__error">*Passwords do not match</p>
+              </div>
+              <div class="signup-form__field">
+                <label for="confirm-password" class="signup-form__label"
+                  >Confirm Password</label
+                >
+                <input
+                  class="signup-form__input signup-form__input--error"
+                  type="password"
+                  name="confirm-password"
+                  required
+                  id="confirm-password"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="signup-form__footer">
+            <button class="signup-form__submit" type="submit">
+              Create Account
+            </button>
+            <div class="signup-form__login-link">
+              <p class="signup-form__login-text">
+                Already have an account?
+                <a href="#" class="signup-form__login-anchor"
+                  ><strong>Log in</strong></a
+                >
+              </p>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

@@ -20,6 +20,7 @@
 
 body {
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .signup {
@@ -217,5 +218,6 @@ body {
 
   body {
     overflow-y: visible;
+    overflow-x: visible;
   }
 }
